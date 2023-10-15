@@ -1,4 +1,4 @@
-package com.tugcedogru.myfirstapp;
+package com.tugcedogru.listviewexample;
 
 import org.junit.Test;
 

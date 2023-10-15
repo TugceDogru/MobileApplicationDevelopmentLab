@@ -7,50 +7,15 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView"
+    <Button
+        android:id="@+id/btnArrayAdapter"
         android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:text="My First Android"
-        android:textAlignment="center"
-        android:textSize="27sp" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="match_parent"
-        android:layout_height="64dp"
-        android:text="Application"
-        android:textAlignment="center"
-        android:textSize="27sp" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="245dp"
-        app:srcCompat="@mipmap/ic_launcher_foreground" />
-
-    <EditText
-        android:id="@+id/editTextText"
-        android:layout_width="match_parent"
-        android:layout_height="77dp"
-        android:ems="10"
-        android:hint="Name"
-        android:inputType="text" />
-
-    <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="match_parent"
-        android:layout_height="69dp"
-        android:ems="10"
-        android:hint="Password"
-        android:inputType="textPassword" />
+        android:layout_height="wrap_content"
+        android:text="Array Adapter" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnCustomAdapter"
         android:layout_width="match_parent"
-        android:layout_height="71dp"
-        android:text="Login"
-        android:textSize="27sp"/>
-
-
+        android:layout_height="wrap_content"
+        android:text="Custum Adapter" />
 </LinearLayout>
