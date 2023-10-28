@@ -10,10 +10,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Mytagram"
+        android:theme="@style/Theme.ListViewExample"
         tools:targetApi="31">
         <activity
-            android:name=".PostActivity"
+            android:name=".CustomAdapterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ArrayAdapterActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
