@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Mytagram"
+rootProject.name = "MyBrowser"
 include(":app")
  
