@@ -1,0 +1,32 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btnArrayAdapter
+id btnCustomAdapter
+id label
+id listview
+id pic
+layout activity_array_adapter
+layout activity_custom_adapter
+layout activity_main
+layout listview_row
+mipmap bear
+mipmap bird
+mipmap cat
+mipmap dog
+mipmap elephant
+mipmap fox
+mipmap giraffe
+mipmap ic_launcher
+mipmap ic_launcher_round
+mipmap monkey
+mipmap rat
+mipmap snake
+string app_name
+style Base.Theme.ListViewExample
+style Theme.ListViewExample
+xml backup_rules
+xml data_extraction_rules
